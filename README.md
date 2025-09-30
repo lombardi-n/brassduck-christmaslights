@@ -1,17 +1,17 @@
 Get Lit Christmas
 Overview
-A simple, user-friendly website for Get Lit Christmas, showcasing professional Christmas light installation services for homes and businesses. The website is hosted at https://lombardi-n.github.io/brassduck-christmaslights/.
+A responsive website for Get Lit Christmas, showcasing professional Christmas light installation services for homes and businesses. The website is hosted at https://lombardi-n.github.io/brassduck-christmaslights/ and optimized for desktop, tablet, and mobile viewing.
 Features
 
-Responsive Design: Works on desktop, tablet, and mobile.
+Responsive Design: Adapts seamlessly to desktop, tablet, and mobile with Tailwind CSS.
 Service Showcase: Highlights residential and commercial lighting services.
-Contact Form: Easy quote requests and booking.
-Gallery: Displays past installation projects.
-Footer Branding: Includes "Powered by Brass Duck LLC" at the bottom of the website.
+Contact Form: Easy quote requests and booking, mobile-friendly.
+Gallery: Displays past installation projects, optimized for all screens.
+Footer Branding: Includes "Powered by Brass Duck LLC" at the bottom.
 
 Tech Stack
 
-Frontend: HTML, CSS, JavaScript, Tailwind CSS
+Frontend: HTML, CSS, JavaScript, Tailwind CSS (via CDN for simplicity)
 Tools: Git, GitHub Pages
 
 Installation
@@ -22,7 +22,7 @@ Clone the repo:git clone https://github.com/lombardi-n/brassduck-christmaslights
 Navigate to directory:cd brassduck-christmaslights
 
 
-Install dependencies (if applicable):npm install
+Install dependencies (if applicable for local build):npm install
 
 
 Run locally (or open index.html):npm start
@@ -31,17 +31,18 @@ Run locally (or open index.html):npm start
 
 Usage
 
-Development: Use npm start for live reloading.
+Development: Use npm start for live reloading or edit files directly on GitHub.
 Production: Deploy /dist folder to GitHub Pages.
-Customization: Edit /src/styles or /src/pages for branding.
-Footer: Ensure the website footer includes the text "Powered by Brass Duck LLC" (e.g., in /src/components/footer.html or index.html).
+Mobile Optimization: Uses Tailwind CSS responsive classes (e.g., sm:, md:, lg:) for font sizes, spacing, and layouts. Test on mobile via browser dev tools or GitHub Pages URL.
+Footer: Ensure "Powered by Brass Duck LLC" is in the footer (e.g., in index.html).
+Testing: View at https://lombardi-n.github.io/brassduck-christmaslights/ and use browser dev tools (F12 → Toggle Device Toolbar) for mobile testing.
 
 Project Structure
 /brassduck-christmaslights
 ├── /public           # Static assets (images, favicon)
 ├── /src              # Source code (components, pages, styles, js)
-├── index.html        # Main HTML file
-├── package.json      # Dependencies and scripts
+├── index.html        # Main HTML file with responsive design
+├── package.json      # Dependencies and scripts (optional)
 ├── README.md         # This file
 └── .gitignore
 
