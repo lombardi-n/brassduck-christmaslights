@@ -1,69 +1,59 @@
-Christmas Lights Co.
+Get Lit Christmas
 Overview
-Welcome to Christmas Lights Co., a simple and user-friendly website for a professional Christmas light installation company. This website is designed to showcase our services, provide easy contact options, and help customers book holiday lighting installations with a festive and approachable design.
+A simple, user-friendly website for Get Lit Christmas, showcasing professional Christmas light installation services for homes and businesses. The website is hosted at https://lombardi-n.github.io/brassduck-christmaslights/.
 Features
 
-Responsive Design: Fully optimized for desktop, tablet, and mobile devices to ensure accessibility for all users.
-Service Showcase: Highlights our Christmas light installation services, including residential and commercial offerings.
-Contact Form: Easy-to-use form for customers to request quotes or schedule consultations.
-Gallery: Displays past projects to showcase the quality and creativity of our installations.
-Booking Information: Clear details on how to book services and what to expect.
+Responsive Design: Works on desktop, tablet, and mobile.
+Service Showcase: Highlights residential and commercial lighting services.
+Contact Form: Easy quote requests and booking.
+Gallery: Displays past installation projects.
+Footer Branding: Includes "Powered by Brass Duck LLC" at the bottom of the website.
 
 Tech Stack
 
 Frontend: HTML, CSS, JavaScript, Tailwind CSS
-Backend (if applicable): None (static site)
-Other Tools: Git for version control
+Tools: Git, GitHub Pages
 
 Installation
-Follow these steps to set up the project locally:
 
-Clone the Repository:git clone https://github.com/your-username/christmas-lights-co.git
-
-
-Navigate to the Project Directory:cd christmas-lights-co
+Clone the repo:git clone https://github.com/lombardi-n/brassduck-christmaslights.git
 
 
-Install Dependencies (if using a package manager for Tailwind or other tools):npm install
+Navigate to directory:cd brassduck-christmaslights
 
 
-Run the Development Server (if using a local server, e.g., Live Server or Vite):npm start
+Install dependencies (if applicable):npm install
 
-Alternatively, open index.html directly in a browser for a static site.
-Open your browser and visit http://localhost:3000 (or the appropriate port).
+
+Run locally (or open index.html):npm start
+
+
 
 Usage
 
-Development: Use npm start to launch a development server with live reloading (if applicable).
-Production: Copy the contents of the /dist folder (or root folder for a static site) to your hosting provider.
-Customization: Update styles in /src/styles or content in /src/pages to reflect your brand's colors, logo, or additional services.
+Development: Use npm start for live reloading.
+Production: Deploy /dist folder to GitHub Pages.
+Customization: Edit /src/styles or /src/pages for branding.
+Footer: Ensure the website footer includes the text "Powered by Brass Duck LLC" (e.g., in /src/components/footer.html or index.html).
 
 Project Structure
-/christmas-lights-co
-├── /public           # Static assets (images, favicon, etc.)
-│   ├── /images       # Photos of Christmas light installations
-│   └── favicon.ico   # Website favicon
-├── /src              # Source code
-│   ├── /components   # Reusable components (e.g., header, footer, contact form)
-│   ├── /pages        # Main pages (home, services, gallery, contact)
-│   ├── /styles       # Tailwind CSS or custom CSS files
-│   └── /js           # JavaScript for interactive features
+/brassduck-christmaslights
+├── /public           # Static assets (images, favicon)
+├── /src              # Source code (components, pages, styles, js)
 ├── index.html        # Main HTML file
-├── package.json      # Project dependencies and scripts (if applicable)
+├── package.json      # Dependencies and scripts
 ├── README.md         # This file
-└── .gitignore        # Git ignore file
+└── .gitignore
 
 Contributing
-We welcome contributions to improve the website! To contribute:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit (git commit -m "Add your feature").
-Push to the branch (git push origin feature/your-feature).
+Fork the repo.
+Create a branch (git checkout -b feature/your-feature).
+Commit changes (git commit -m "Add feature").
+Push (git push origin feature/your-feature).
 Open a pull request.
 
-Please ensure your code aligns with the project's simple and clean design principles.
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT License. See LICENSE file.
 Contact
-For questions or feedback, reach out to Christmas Lights Co. at info@christmaslightsco.com or open an issue on GitHub.
+Email: info@getlitchristmas.com or open a GitHub issue.
